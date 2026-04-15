@@ -1,6 +1,21 @@
-header {
-    text-align: center;
-    background: linear-gradient(to right, #1e3a8a, #f97316);
-    color: white;
-    padding: 20px;
-}
+/*
+filename: Apply Page CSS
+
+author: Bianca Zerveas
+
+created: 15/04/26
+
+last modified: 15/04/26
+
+description: The CSS for specifically the apply.html page
+*/
+
+* { font-family: calibri, sans-serif; }
+
+h1 {text-align: left;
+    color:  #1e3a8a;}
+
+fieldset {text-align: left;
+width: 50%;}
+
+#gender{text-align: right;}
