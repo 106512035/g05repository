@@ -48,7 +48,9 @@
             <p><label for="postcode">Postcode</label> 
             <input type="text" name= "postcode" id="postcode" size="5" pattern="[0-9]{4}" required="required"></p>
             <p><label for="email">Email</label> 
-                <input type="text" name= "email" id="email" size="10" pattern="[0-9]{4}" required="required"></p>
+                <input type="email" name= "email" id="email" size="10" required="required"></p> 
+            <p><label for="phoneno">Phone Number</label>
+                <input type="text" name= "phoneno" id="phoneno" size="12" pattern="[0-9]{8,12}" required="required"></p>
         </fieldset>
         <fieldset>
             <p><label for="gender">Gender</label>
@@ -59,6 +61,16 @@
                 <label for="other">Other</label> 
                 <input type="radio" id="other" name="gender" value="other" required="required">
             </p>
+        </fieldset>
+        <fieldset>
+            <legend>Skill List ADD REQUIREMENT</legend>
+            <p><label for="service">Customer Service</label> 
+                <input type="checkbox" id="service" name="language[]" value="service">
+            <p><label for="digital">Basic Understandings of IT</label> 
+                <input type="checkbox" id="digital" name="language[]" value="digital">
+            <p><label for="teamwork">Experience of working in teams</label> 
+                <input type="checkbox" id="teamwork" name="language[]" value="teamwork">
+        </fieldset>
         </fieldset>
             
 
