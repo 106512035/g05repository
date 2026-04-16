@@ -16,10 +16,16 @@
 <body>
     <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="apply.html">Apply</a>
+            <a href="about.html">About Us</a>
+           </nav>
+
         <h1>ShopNest Application Page</h1>
         <p>This is ShopNest job application page. Please enter all required information.</p>
 
-       
             
         <p><label for="jobid">Job Reference ID</label> 
         <input type="text" name= "jobid" id="jobid" maxlength="5" size="10" required="required" pattern="[a-zA-Z0-9]{5}">
@@ -56,7 +62,8 @@
             <p><label for="phoneno">Phone Number</label>
                 <input type="text" name= "phoneno" id="phoneno" size="12" pattern="[0-9]{8,12}" required="required"></p>
         </fieldset>
-        <fieldset>
+    
+        <fieldset id="fieldright">
             <p><label for="gender">Gender</label>
                 <p><label for="male">Male</label> 
                 <input type="radio" id="male" name="gender" value="male" required="required">
@@ -66,6 +73,8 @@
                 <input type="radio" id="other" name="gender" value="other" required="required">
             </p>
         </fieldset>
+    
+
         <fieldset>
             <legend>Skill List ADD REQUIREMENT</legend>
             <p><label for="service">Customer Service</label> 
@@ -81,14 +90,14 @@
             <p><label for="userinter">Familiar with User Interfaces</label> 
                 <input type="checkbox" id="userinter" name="language[]" value="userinter">
         </fieldset>
-        <fieldset>
+        <fieldset id="fieldright">
             <p><label for="otherskills">Other Skills:</label></p>
 			<textarea id="otherskills" name="otherskills" rows="4" cols="40" placeholder="Write anymore of your skills or experience..."></textarea>
         </fieldset>
             
 
-    <input type= "submit" value="Book">
-	<input type= "reset" value="Reset Form">
+    <input type= "submit" value="Book" id="subutton">
+	<input type= "reset" value="Reset Form" id="resbutton">
 </form>
 </body>
 </html>

@@ -15,7 +15,12 @@ description: The CSS for specifically the apply.html page
 h1 {text-align: left;
     color:  #1e3a8a;}
 
-fieldset {text-align: left;
-width: 50%;}
+fieldset {width: 45%;
+    border: 2px solid #1e3a8a;}
 
-#gender{text-align: right;}
+#subutton {float: left;}
+
+#resbutton {float: left;}
+
+#fieldright {float: right;
+    margin: auto;}
