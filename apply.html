@@ -24,13 +24,14 @@
            </nav>
 
         <h1>ShopNest Application Page</h1>
-        <p>This is ShopNest job application page. Please enter all required information.</p>
+        <p><strong>Welcome to the ShopNest job application page! Please complete all required fields and let's see if you have what it takes to join our team!</strong></p>
 
             
         <p><label for="jobid">Job Reference ID</label> 
         <input type="text" name= "jobid" id="jobid" maxlength="5" size="10" required="required" pattern="[a-zA-Z0-9]{5}">
         </p>
         
+        <div class="row">
         <fieldset>
             <legend>Personal Information</legend>
             <p><label for="firstname">First Name</label>
@@ -64,7 +65,7 @@
         </fieldset>
     
         <fieldset id="fieldright">
-            <p><label for="gender">Gender</label>
+            <legend>Gender</legend>
                 <p><label for="male">Male</label> 
                 <input type="radio" id="male" name="gender" value="male" required="required">
                 <label for="female">Female</label> 
@@ -76,28 +77,30 @@
     
 
         <fieldset>
-            <legend>Skill List ADD REQUIREMENT</legend>
+            <legend>Skill List</legend>
+            <p>Please select all that apply!</p>
             <p><label for="service">Customer Service</label> 
-                <input type="checkbox" id="service" name="language[]" value="service">
+                <input type="checkbox" id="service" name="skill[]" value="service">
             <p><label for="digital">Basic Understandings of IT</label> 
-                <input type="checkbox" id="digital" name="language[]" value="digital">
+                <input type="checkbox" id="digital" name="skill[]" value="digital">
             <p><label for="teamwork">Experience of working in teams</label> 
-                <input type="checkbox" id="teamwork" name="language[]" value="teamwork">
+                <input type="checkbox" id="teamwork" name="skill[]" value="teamwork">
             <p><label for="time">Great at time management</label> 
-                <input type="checkbox" id="time" name="language[]" value="time">
+                <input type="checkbox" id="time" name="skill[]" value="time">
             <p><label for="fieldw">Worked in a Familiar Field</label> 
-                <input type="checkbox" id="fieldw" name="language[]" value="fieldw">
+                <input type="checkbox" id="fieldw" name="skill[]" value="fieldw">
             <p><label for="userinter">Familiar with User Interfaces</label> 
-                <input type="checkbox" id="userinter" name="language[]" value="userinter">
+                <input type="checkbox" id="userinter" name="skill[]" value="userinter">
         </fieldset>
         <fieldset id="fieldright">
             <p><label for="otherskills">Other Skills:</label></p>
 			<textarea id="otherskills" name="otherskills" rows="4" cols="40" placeholder="Write anymore of your skills or experience..."></textarea>
         </fieldset>
-            
-
+        </div>
+    <div class="buttons">
     <input type= "submit" value="Book" id="subutton">
 	<input type= "reset" value="Reset Form" id="resbutton">
+    </div>
 </form>
 </body>
 </html>

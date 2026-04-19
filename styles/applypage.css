@@ -12,15 +12,55 @@ description: The CSS for specifically the apply.html page
 
 * { font-family: calibri, sans-serif; }
 
+body{background:#f4f6f8;
+}
+
 h1 {text-align: left;
     color:  #1e3a8a;}
 
 fieldset {width: 45%;
     border: 2px solid #1e3a8a;}
 
-#subutton {float: left;}
 
-#resbutton {float: left;}
+#fieldright {margin: 0;}
 
-#fieldright {float: right;
-    margin: auto;}
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row fieldset{
+    width:50%;
+}
+
+.buttons {
+    margin: 30px auto;
+    text-align:center;
+    clear:both;
+    
+}
+
+fieldset {
+    width: 45%;
+    border: 2px solid #1e3a8a;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #1e3a8a;
+    color: white;
+    cursor: pointer;
+}
