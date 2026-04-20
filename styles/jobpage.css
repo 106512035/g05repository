@@ -10,14 +10,10 @@ last modified: 20/04/26
 description: CSS page for the jobs.html page
 */
 
-/* Header with gradient background */
-
-/* Make the logo small */
-
 /* modified header */
 header {
     background: linear-gradient(to right, #1e3a8a, #f97316);
-    display: flex;
+    display: flex; /*utilised a display flex to centre the logo as it defaults to the left. */
     justify-content: center;    /* centers the logo to the middle */
     padding: 1.5rem;
 }
@@ -47,10 +43,11 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em; 
     
 }
 
+  /* hover highlight colour  */
 nav a:hover {
         color: #f97316;
     }
@@ -71,6 +68,8 @@ nav a:hover {
   padding: 15px;
   border: 1px solid black;
 }
+
+  /* Adds border colour to the articles. */
   article {
     margin: 20px;
     border: 2px solid #1e3a8a;    /* blue border around both job cards */
@@ -78,10 +77,7 @@ nav a:hover {
     padding: 15px;
   }
 
-  section {
-    width: 70%;
-  }
-
+  /* changed the styling for the footer to match the theme */
   footer {
     background-color: #1e3a8a;
     color: white;
@@ -95,12 +91,14 @@ footer a {
     color: #93c5fd;
 }
 
+/* added styling for the titles of each job.*/
 h2 {
     color: #1e3a8a;
     border-bottom: 2px solid #f97316;   /* orange underline matches your gradient */
     padding-bottom: 5px;
 }
 
+  /* takes the id of title from the sidebar job infos to change the title colour.*/
   #title { 
     color: #f97316;
 }
