@@ -37,7 +37,7 @@ nav {
     padding: 0.75rem 1rem;
 }
 
-/* Nav links */
+/* Styles navigation links for readability and hover interaction */
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -52,7 +52,7 @@ nav a:hover {
         color: #f97316;
     }
 
-
+/* floats the job side info and styles it*/
 .Job1-sideinfo,
 .Job2-sideinfo {
   float: right;
@@ -84,14 +84,14 @@ footer a {
     color: #93c5fd;
 }
 
-/* added styling for the titles of each job.*/
+/* added styling for the titles of each job with brand colour and underline for adding emphasis */
 h2 {
     color: #1e3a8a;
     border-bottom: 2px solid #f97316;   /* orange underline matches your gradient */
     padding-bottom: 5px;
 }
 
-  /* takes the id of title from the sidebar job infos to change the title colour.*/
+ /* Styles the job title with id="title" in the sidebar using accent colour */
   #title { 
     color: #f97316;
 }
