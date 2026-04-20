@@ -18,19 +18,17 @@ body{background:#f4f6f8;
 h1 {text-align: left;
     color:  #1e3a8a;}
 
-fieldset {width: 45%;
-    border: 2px solid #1e3a8a;}
-
-
-#fieldright {margin: 0;}
+.fieldright {margin: 0;}
 
 .row {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .row fieldset{
-    width:50%;
+    width: 45%;
+    min-width: 320px;
 }
 
 .buttons {
@@ -64,3 +62,21 @@ input, select, textarea {
     color: white;
     cursor: pointer;
 }
+
+#acknowledgment {
+    max-width: 700px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    color: #444;
+    background-color: #f5f7fb;
+    text-align: center;
+  }
+
+.buttons input:hover {
+    color: #3b82f6;
+}
+
+#otherskills {width: 70%
+}
+
