@@ -81,3 +81,16 @@ nav a:hover {
   section {
     width: 70%;
   }
+
+  footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+footer a {
+    color: #93c5fd;
+}
