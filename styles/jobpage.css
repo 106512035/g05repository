@@ -1,0 +1,92 @@
+/*
+filename: Job Page CSS
+
+author: Thomas Nguyen
+
+created: 15/04/26
+
+last modified: 20/04/26
+
+description: CSS page for the jobs.html page
+*/
+
+/* modified header */
+header {
+    background: linear-gradient(to right, #1e3a8a, #f97316);
+    display: flex; /*utilised a display flex to centre the logo as it defaults to the left. */
+    justify-content: center;    /* centers the logo to the middle */
+    padding: 1.5rem;
+}
+
+/* sizing image */
+header img {
+        width: 120px;
+    }
+
+/* Nav bar — solid blue strip below header */
+nav {
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 0.75rem 1rem;
+}
+
+/* Styles navigation links for readability and hover interaction */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em; 
+    
+}
+
+  /* hover highlight colour  */
+nav a:hover {
+        color: #f97316;
+    }
+
+/* floats the job side info and styles it*/
+.Job1-sideinfo,
+.Job2-sideinfo {
+  float: right;
+  width: 25%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+  /* Adds border colour to the articles. */
+  article {
+    margin: 20px;
+    border: 2px solid #1e3a8a;    /* blue border around both job cards */
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  /* changed the styling for the footer to match the theme */
+  footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+footer a {
+    color: #93c5fd;
+}
+
+/* added styling for the titles of each job with brand colour and underline for adding emphasis */
+h2 {
+    color: #1e3a8a;
+    border-bottom: 2px solid #f97316;   /* orange underline matches your gradient */
+    padding-bottom: 5px;
+}
+
+ /* Styles the job title with id="title" in the sidebar using accent colour */
+  #title, #title2 { 
+    color: #f97316;
+}

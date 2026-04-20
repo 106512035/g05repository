@@ -1,5 +1,18 @@
 
-    body {
+  /*
+filename: Index Page CSS
+
+author: Damisi Omibiyi
+
+created: 10/04/26
+
+last modified: 20/04/26
+
+description: CSS page for the index.html page
+*/
+
+  
+   body {
         font-family: Arial, sans-serif;
         margin: 0;
         
@@ -165,4 +178,8 @@
     footer a:hover {
         text-decoration: underline;
     }
-</style>
+
+  
+  
+
+   
