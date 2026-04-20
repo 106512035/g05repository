@@ -20,13 +20,8 @@ header {
 
 /* sizing image */
 header img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    background-color: white;
-    padding: 8px;
-    border-radius: 6px;
-}
+        width: 120px;
+    }
 
 /* Nav bar — solid blue strip below header */
 nav {
