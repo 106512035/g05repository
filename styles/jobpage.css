@@ -48,11 +48,12 @@ nav a {
     font-weight: 600;
     font-size: 0.95rem;
     letter-spacing: 0.03em;
+    
 }
 
 nav a:hover {
-    text-decoration: underline;
-}
+        color: #f97316;
+    }
 
 /* Sidebar for Job 1*/
 .Job1-sideinfo {
