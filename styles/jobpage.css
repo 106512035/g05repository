@@ -1,4 +1,60 @@
- /* Sidebar for Job 1*/
+/*
+filename: Job Page CSS
+
+author: Thomas Nguyen
+
+created: 15/04/26
+
+last modified: 20/04/26
+
+description: CSS page for the jobs.html page
+*/
+
+/* Header with gradient background */
+
+/* Make the logo small */
+
+/* modified header */
+header {
+    background: linear-gradient(to right, #1e3a8a, #f97316);
+    display: flex;
+    justify-content: center;    /* centers the logo to the middle */
+    padding: 1.5rem;
+}
+
+/* sizing image */
+header img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* Nav bar — solid blue strip below header */
+nav {
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 0.75rem 1rem;
+}
+
+/* Nav links */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar for Job 1*/
 .Job1-sideinfo {
   float: right;
   width: 25%;
@@ -15,23 +71,7 @@
   border: 1px solid black;
 }
 
- article {
-    margin: 20px;
-  }
 
-  aside {
-
-    float: right;
-
-    width: 25%;
-
-    margin: 10px;
-
-    padding: 15px;
-
-    border: 1px solid black;
-  }
-  
   section {
     width: 70%;
   }
