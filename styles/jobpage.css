@@ -92,6 +92,6 @@ h2 {
 }
 
  /* Styles the job title with id="title" in the sidebar using accent colour */
-  #title { 
+  #title, #title2 { 
     color: #f97316;
 }
