@@ -1,0 +1,12 @@
+.sidebar {
+  width: 250px;
+}
+
+.flags {
+  width: 100px; // Increased width
+  height: 100px; // Increased height
+}
+
+.main-content {
+  margin-left: 20px; // Adjusted margin
+}
