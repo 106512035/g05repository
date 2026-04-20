@@ -94,3 +94,13 @@ nav a:hover {
 footer a {
     color: #93c5fd;
 }
+
+h2 {
+    color: #1e3a8a;
+    border-bottom: 2px solid #f97316;   /* orange underline matches your gradient */
+    padding-bottom: 5px;
+}
+
+  #title { 
+    color: #f97316;
+}
